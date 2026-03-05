@@ -1,0 +1,118 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+background:#F8FAFC;
+}
+
+/* Navbar */
+
+.navbar{
+background:#220974;
+border-bottom:3px solid #06B6D4;
+}
+
+.nav-link{
+color:white !important;
+margin-left:15px;
+}
+
+.nav-link:hover{
+color:#F59E0B !important;
+}
+/* Hero Section */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background: linear-gradient(135deg,#4F46E5,#06B6D4);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:bold;
+animation: floatText 3s ease-in-out infinite;
+}
+
+.hero p{
+font-size:20px;
+}
+
+/* Floating animation */
+
+@keyframes floatText{
+0%{transform:scale(1.0);}
+50%{transform:scale(1.1); text-shadow:#F59E0B  2px 2px 2px ;}
+100%{transform:scale(1.0);}
+}
+
+img{
+    height: 100px;
+    border-radius: 50%;
+}
+/* Section title */
+
+.section-title{
+font-weight:bold;
+color:#0F172A;
+margin-bottom:30px;
+}
+
+/* Skills */
+
+.skills-section{
+background:#4F46E5;
+}
+
+.skill-box{
+background:white;
+padding:30px;
+border-radius:12px;
+font-weight:bold;
+transition:0.4s;
+color:#0F172A;
+}
+
+.skill-box:hover{
+transform:translateY(-8px);
+background:#F59E0B;
+color:white;
+}
+
+/* Projects */
+
+.project-card{
+border:none;
+border-radius:12px;
+transition:0.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+
+.contact-section{
+background:#0F172A;
+}
+
+/* Buttons */
+
+.btn-warning{
+background:#F59E0B;
+border:none;
+}
+
+.btn-warning:hover{
+background:#d97706;
+}
+
+/* Footer */
+
+footer{
+background:#e2e8f0;
+}
